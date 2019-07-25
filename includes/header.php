@@ -18,10 +18,9 @@
 
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                      <li><a class="pop" href="#">Departments<span class="fa fa-angle-down"></span></a></li>
-   
-                    <li class="dropdown hassubmenu">
+                    
+
+                <li class="dropdown hassubmenu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
 							
@@ -47,14 +46,50 @@
                     <li class="dropdown hassubmenu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="blog.html">Blog Right Sidebar</a></li>
-                            <li><a href="blog-1.html">Blog Left Sidebar</a></li>
-                            <li><a href="blog-2.html">Blog Grid Sidebar</a></li>
-                            <li><a href="blog-3.html">Blog Grid Fullwidth</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
+							
+							<li><a href="./calendar">Board of Directors</a>
+							</li>
+							
+                            <li><a href="./theme">Student Leader Election</a></li>	
+							
+							
+							<li><a href="./eaglecon">Meet our Staff</a>
+							</li>
+							
+                            <li><a href="./studyFest">Floor Plan</a></li>	
+							
+							
+							<li><a href="./welcomeweek">Governance</a>
+							</li>
+							
+                            <li><a href="./WellnessWeek">Reflection Room</a></li>
+
+                            <li><a href="./WellnessWeek">LA Art Exhibition</a></li>
+
+                            <li><a href="./WellnessWeek">Tenants</a></li>
+
+                            <li><a href="./WellnessWeek">U-SU History</a></li>
+
+                            <li><a href="./WellnessWeek">Contact Us</a></li>
+                            
                         </ul>
                     </li>
-                    <li><a href="page-contact.html">Contact</a></li>
+
+
+
+
+
+
+
+
+
+                      <li><a class="pop" href="#">Departments</a></li>
+
+                      <li><a  href="#">Photos</a></li>
+                    
+                      <li><a  href="#">Employment</a></li>
+                   
+                
                     <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
                     <!-- <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> -->
                 </ul>

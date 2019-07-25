@@ -496,7 +496,7 @@ MEGA MENU
 
 .yamm .dropdown .dropdown-menu {
     border-radius: 0;
-    border-top: 3px solid #ddd;
+    border-top: 3px solid #ffce00;
     background-color: #fff !important;
     margin-top: 24px;
     padding: 20px 30px;
@@ -2094,7 +2094,7 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #01bacf;
+    border-top-color: #ffce00;
 }
 
 .iconitem a.shopicon i {
@@ -2125,7 +2125,7 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-    color: #01bacf;
+    color: #ffce00;
 }
 
 .shop-extra .nav-tabs>li:hover a,
@@ -2133,7 +2133,7 @@ a:focus,
 .modal .form-control,
 .form-control:focus,
 .btn-transparent {
-    border-color: #01bacf !important;
+    border-color: #ffce00 !important;
 }
 
 .cb,
@@ -2318,6 +2318,16 @@ RESPONSIVE
 Departments nav
 ******************************************/
 
+/*Size of arrow icon*/
+.fas{
+    font-size: 24px;
+}
+
+/*Align departments left*/
+.wrap-nav li{
+text-align: left;
+}
+
 .DeptOverlay {
 	display:none;
 	position:fixed;
@@ -2356,6 +2366,35 @@ Departments nav
 	width:18%;
 	position:relative;
 }
+
+li.link{
+
+    width: fit-content!important;
+}
+/* .wrap ul.wrap-nav li.first {
+	font-size:20px;
+	display:inline-block;
+	vertical-align:top;
+	width:15%;
+	position:relative;
+}
+
+
+.wrap ul.wrap-nav li.second {
+	font-size:20px;
+	display:inline-block;
+	vertical-align:top;
+	width:24%;
+	position:relative;
+}
+
+.wrap ul.wrap-nav li.third {
+	font-size:20px;
+	display:inline-block;
+	vertical-align:top;
+	width:21%;
+	position:relative;
+} */
 .wrap ul.wrap-nav li a {
 	color:#ffce00;
 	display:block;
@@ -2415,12 +2454,10 @@ Departments nav
 .social-icon i {
 	margin-top:12px;
 }
-.deptLink {
-	color: pink;
-}
+
 
 /*Underline */
-.d/ptLink:after {    
+.deptLink:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
