@@ -71,8 +71,8 @@
                             <div class="content blog-list">
                                 <div class="blog-wrapper clearfix">
                                     <div class="blog-meta">
-                                        <small><a href="#">Center of Student Involvment</a></small>
-                                        <h3>Wellness Week</h3>
+                                        <small><a href="#">Recreation</a></small>
+                                        <h3>Happy Hour</h3>
                                         <!-- <ul class="list-inline">
                                             <li>6 hours ago</li>
                                             <li><span>written by</span> <a href="#">Edulogy Team</a></li>
@@ -80,15 +80,13 @@
                                     </div><!-- end blog-meta -->
 
                                     <div class="blog-media">
-                                        <img src="upload/blog_01.jpg" alt="" class="img-responsive img-rounded">
+                                        <img src="upload/happyhour.jpg" alt="" class="img-responsive img-rounded">
                                     </div><!-- end media -->
 
                                     <div class="blog-desc-big">
-                                        <p class="lead">You can get all the icon versions by checking out our standard license that come with every free icons..</p>
-                                        <p>Integer eu urna sit amet dolor fringilla vulputate. Sed diam nunc, pellentesque sed lobortis non, tincidunt et sem. Sed sollicitudin elementum mi eget lobortis. Aliquam molestie rhoncus nisl, vitae molestie leo imperdiet ac. Aliquam diam est, aliquam vitae tristique nec, pretium a libero. Vivamus tempor sed turpis sit amet malesuada.</p>
-
-                                        <p> Cras eu lacus et nulla dignissim <a href="#">ultrices</a>. Duis ullamcorper finibus quam, sed convallis massa pharetra nec. Duis nec molestie dolor. Nam augue neque, efficitur vel lacus sit amet, consequat pharetra massa. Proin nunc magna, congue vitae justo ut, dignissim dapibus enim. Integer sollicitudin lacus a iaculis molestie. Donec quis consequat erat. Cras vitae consequat sem. Integer eleifend purus congue, gravida sem eu, pharetra sapien. Nunc venenatis, lacus id pretium volutpat, augue eros accumsan leo, eu condimentum velit nulla nec sem. Donec interdum bibendum eros, ut facilisis nunc malesuada id. Nulla quis ex non magna sollicitudin sodales vestibulum nec massa. Nullam ut nibh quis est aliquet viverra mattis eu ligula. Pellentesque dui mi, ultricies ut velit id, iaculis lacinia est. </p>
-
+                                        <p class="lead">Happy Hour</p>
+                                        <p>HAPPY HOUR IS BACK! Please join us in the PIT for free popcorn, game play, raffle prizes and great music! Meet up with old friends or come and make some new friends. Everyone is welcome! </p>
+                                       
                                         <blockquote class="text-center">
                                             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
                                         </blockquote>
@@ -123,75 +121,76 @@
                         <div class="sidebar col-md-4">
                             <div class="widget clearfix">
                                 <div class="banner-widget">
-                                    <img src="upload/banner.jpeg" alt="" class="img-responsive img-rounded">
+                                    <!-- <img src="upload/banner.jpeg" alt="" class="img-responsive img-rounded"> -->
                                 </div>
                             </div>
 
                             <div class="widget clearfix">
-                                <h3 class="widget-title">Popular Posts</h3>
+                                <h3 class="widget-title">Related Events</h3>
                                 <div class="post-widget">
                                     <div class="media">
-                                        <img src="upload/blog_small_01.jpg" alt="" class="img-responsive alignleft img-rounded">
+                                        <img src="upload/happyhour1.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
                                             <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
                                                     <li>4 days ago</li>
-                                                    <li><span>by</span> <a href="#">Edulogy Team</a></li>
                                                 </ul>
                                             </div><!-- end blog-meta -->
                                         </div>
                                     </div>
 
                                     <div class="media">
-                                        <img src="upload/blog_small_02.jpg" alt="" class="img-responsive alignleft img-rounded">
+                                        <img src="upload/happyhour2.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
-                                            <h5 class="mt-0"><a href="blog-single.html">How to create a beautiful website with Bootstrap</a></h5>
+                                            <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
-                                                    <li>5 days ago</li>
-                                                    <li><span>by</span> <a href="#">Boby DOE</a></li>
+                                                    <li>12 days to ago</li>
                                                 </ul>
                                             </div><!-- end blog-meta -->
                                         </div>
                                     </div>
 
                                     <div class="media">
-                                        <img src="upload/blog_small_03.jpg" alt="" class="img-responsive alignleft img-rounded">
+                                        <img src="upload/happyhour3.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
-                                            <h5 class="mt-0"><a href="blog-single.html">Don't forget to update your Google web master tools</a></h5>
+                                            <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
-                                                    <li>6 days ago</li>
-                                                    <li><span>by</span> <a href="#">Martin</a></li>
+                                                    <li>April 18, 2019</li>
+                                                    <!-- <li><span>by</span> <a href="#">Edulogy Team</a></li> -->
                                                 </ul>
                                             </div><!-- end blog-meta -->
                                         </div>
+                                    </div>
                                     </div>
                                 </div><!-- end post-widget -->
                             </div><!-- end widget -->
+                            <div class="sidebar col-md-4" >
+    <div class="widget">
+    <div class="authorbox-social">
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                                        </ul>
+                                    </div>
+    </div>
 
-                            <div class="widget clearfix">
-                                <h3 class="widget-title">Subscribe Our Newsletter</h3>
-                                <div class="newsletter-widget">
-                                    <p>You can opt out of our newsletters at any time. See our <a href="#">privacy policy</a>.</p>
-                                    <form class="form-inline" role="search">
-                                        <div class="form-1">
-                                            <input type="text" class="form-control" placeholder="Enter email here..">
-                                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
-                                        </div>
-                                    </form>
-                                </div><!-- end newsletter -->
-                            </div><!-- end widget -->
+    </div>
+                            
 
                             <div class="widget clearfix">
                                 <h3 class="widget-title">Popular Tags</h3>
                                 <div class="tags-widget">   
                                     <ul class="list-inline">
-                                        <li><a href="#">course</a></li>
-                                        <li><a href="#">web design</a></li>
-                                        <li><a href="#">development</a></li>
-                                        <li><a href="#">language</a></li>
+                                        <li><a href="#">recreation</a></li>
+                                        <li><a href="#">calstatela</a></li>
+                                        <li><a href="#">student union</a></li>
+                                        <li><a href="#">table tennis</a></li>
                                         <li><a href="#">teacher</a></li>
                                         <li><a href="#">speaking</a></li>
                                         <li><a href="#">material</a></li>
