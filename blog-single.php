@@ -84,7 +84,7 @@
                                     </div><!-- end media -->
 
                                     <div class="blog-desc-big">
-                                        <p class="lead">Happy Hour</p>
+                                        <!-- <p class="lead">Happy Hour</p> -->
                                         <p>HAPPY HOUR IS BACK! Please join us in the PIT for free popcorn, game play, raffle prizes and great music! Meet up with old friends or come and make some new friends. Everyone is welcome! </p>
                                        
                                         <blockquote class="text-center">
@@ -131,7 +131,7 @@
                                     <div class="media">
                                         <img src="upload/happyhour1.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
-                                            <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
+                                            <h5 class="mt-0"><a href="blog-single.html">Happy Hour!</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
                                                     <li>4 days ago</li>
@@ -143,7 +143,7 @@
                                     <div class="media">
                                         <img src="upload/happyhour2.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
-                                            <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
+                                            <h5 class="mt-0"><a href="blog-single.html">Happy Hour!</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
                                                     <li>12 days to ago</li>
@@ -155,7 +155,7 @@
                                     <div class="media">
                                         <img src="upload/happyhour3.jpg" alt="" class="img-responsive alignleft img-rounded" width="150px;">
                                         <div class="media-body">
-                                            <h5 class="mt-0"><a href="blog-single.html">Learning English Like a Pro..</a></h5>
+                                            <h5 class="mt-0"><a href="blog-single.html">Happy Hour!</a></h5>
                                             <div class="blog-meta">
                                                 <ul class="list-inline">
                                                     <li>April 18, 2019</li>
