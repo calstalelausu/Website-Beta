@@ -29,7 +29,7 @@
 
 	$('.header').affix({
 	    offset: {
-	        top: 100,
+	        top: 40,
 	        bottom: function() {
 	            return (this.bottom = $('.footer').outerHeight(true))
 	        }
