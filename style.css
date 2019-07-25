@@ -2318,7 +2318,10 @@ RESPONSIVE
 /******************************************
 Departments nav
 ******************************************/
-
+/* hide scroll icon unless on tablet or mobile*/
+.scrollIcon{
+    display: none;
+    }
 /*Size of arrow icon*/
 .fas{
     font-size: 24px;
@@ -2594,4 +2597,26 @@ li.link{
 		background-color: black;
 	}
 
+/*scroll icon*/
+.scrollIcon{
+    display: contents;
+    }
+
 }
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    
+    /*scroll icon*/
+    .scrollIcon{
+        display: contents;
+        }
+    
+    }
+    
