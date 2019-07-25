@@ -86,7 +86,7 @@ html{
  
 //			  
 //			  
-			  		    $(".fas").click(function(){
+			  		    $(".backIcon").click(function(){
 							
         $(".DeptOverlay").fadeToggle(200);
 //					
@@ -97,7 +97,26 @@ html{
 			  
 			  
 			  
-			  
+    $(".DeptOverlay" ).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollIcon').fadeIn();
+        } else {
+            $('.scrollIcon').fadeOut();
+        }
+    });
+
+    $('.scrollIcon').click(function () {
+        $(".DeptOverlay").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+
+
+
+
+
 });
 //$('.overlay').on('click', function(){
 ////    $(".overlay").fadeToggle(200);   
@@ -113,7 +132,7 @@ html{
 	<div class="DeptOverlay " > 
 	
 	<div class="wrap">
-		<div class="backIcon"><i class="fas fa-angle-double-left"></i></div>
+		<div class="backIcon"><i class="fas fa-angle-up"></i></div>
 		<ul class="wrap-nav">
 			
 			
@@ -213,7 +232,9 @@ html{
 		
 			
 		</ul>
-	
+        <div class="scrollIcon">
+        <i class="fas fa-angle-double-up"></i>
+        </div>
 	</div>
 </div>
 	
