@@ -1,30 +1,10 @@
 <header class="header">
-    <!-- <div class="topbar clearfix">
-        <div class="container">
-            <div class="row-fluid">
-                <div class="col-md-6 col-sm-6 text-left">
-                    <p>
-                        <strong><i class="fa fa-phone"></i></strong> +90 543 123 45 67 &nbsp;&nbsp;
-                        <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:#">info@yoursite.com</a>
-                    </p>
-                </div><!-- end left -->
-                <!-- <div class="col-md-6 col-sm-6 hidden-xs text-right"> -->
-                    <!-- <div class="social"> -->
-                        <!-- <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a> -->
-                        <!-- <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a> -->
-                        <!-- <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a> -->
-                        <!-- <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a> -->
-                        <!-- <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a> -->
-                    <!-- </div><!-- end social -->
-                <!-- </div><!-- end left -->
-            <!-- </div><!-- end row -->
-        <!-- </div><!-- end container -->
-    <!-- </div><!-- end topbar -->
+  
 
     <div class="container">
         <nav class="navbar navbar-default yamm">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <button type="button" class="navbar-toggle collapsed mbl" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -34,53 +14,34 @@
                     <a class="navbar-brand" href="index.html"><img width="200px" src="images/CSULA_Logo.png" alt=""></a>
                 </div>
             </div>
+			
 
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
-                    <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown" class="dropdown-toggle active">Mega Menu <b class="fa fa-angle-down"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content clearfix">
-                                    <div class="row-fluid">
-                                        <div class="col-md-6 col-sm-6">
-                                            <h4>Course Pages</h4>
-                                            <ul>
-                                                <li><a href="#">Courses Name 01</a></li>
-                                                <li><a href="#">Courses Name 02</a></li>
-                                                <li><a href="#">Courses Name 03</a></li>
-                                                <li><a href="#">Courses Name 04</a></li>
-                                                <li><a href="#">Courses Name 05</a></li>
-                                                <li><a href="#">Courses Name 06</a></li>
-                                                <li><a href="#">Courses Name 07</a></li>
-                                                <li><a href="#">Courses Name 08</a></li>
-                                                <li><a href="#">Courses Name 09</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="menu-widget text-center">
-                                                <div class="image-wrap entry">
-                                                    <img src="upload/course_01.jpg" alt="" class="img-responsive">
-                                                    <div class="magnifier">
-                                                         <a href="#" title=""><i class="flaticon-add"></i></a>
-                                                    </div>
-                                                </div><!-- end image-wrap -->
-                                                <h5><a href="#">Learning Bootstrap Framework</a></h5>
-                                                <small>$22.00</small>
-                                                <a href="#" class="menu-button">View Course</a>
-                                            </div><!-- end widget -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="events.html">Events</a></li>
+                      <li><a class="pop" href="#">Departments<span class="fa fa-angle-down"></span></a></li>
+   
                     <li class="dropdown hassubmenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shop <span class="fa fa-angle-down"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="shop.html">Shop Layout</a></li>
-                            <li><a href="shop-single.html">Shop Single</a></li>
+							
+							<li><a href="./calendar">Calendar</a>
+							</li>
+							
+                            <li><a href="./theme">Event Themes</a></li>	
+							
+							
+							<li><a href="./eaglecon">Eagle Con</a>
+							</li>
+							
+                            <li><a href="./studyFest">Finals Study Fest</a></li>	
+							
+							
+							<li><a href="./welcomeweek">Welcome Week</a>
+							</li>
+							
+                            <li><a href="./WellnessWeek">Wellness Week</a></li>
+                            
                         </ul>
                     </li>
                     <li class="dropdown hassubmenu">
@@ -98,6 +59,13 @@
                     <!-- <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> -->
                 </ul>
             </div>
+			<div class="button " >
+	<a class="btn-open pop"  href="#"></a>
+</div>
         </nav><!-- end navbar -->
     </div><!-- end container -->
+	
+
+
+
 </header>
