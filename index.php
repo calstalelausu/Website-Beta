@@ -110,7 +110,7 @@
 	<div class="DeptOverlay " > 
 	
 	<div class="wrap">
-		<div class="backIcon"><i class="fas fa-angle-double-left"></i></div>
+		<div class="backIcon"><i class="fas fa-angle-double-up"></i></div>
 		<ul class="wrap-nav">
 			
 			

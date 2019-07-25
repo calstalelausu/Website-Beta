@@ -494,7 +494,7 @@ MEGA MENU
 
 .yamm .dropdown .dropdown-menu {
     border-radius: 0;
-    border-top: 3px solid #ddd;
+    border-top: 3px solid #ffce00;
     background-color: #fff !important;
     margin-top: 24px;
     padding: 20px 30px;
@@ -2091,7 +2091,7 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #01bacf;
+    border-top-color: #ffce00;
 }
 
 .iconitem a.shopicon i {
@@ -2122,7 +2122,7 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-    color: #01bacf;
+    color: #ffce00;
 }
 
 .shop-extra .nav-tabs>li:hover a,
@@ -2130,7 +2130,7 @@ a:focus,
 .modal .form-control,
 .form-control:focus,
 .btn-transparent {
-    border-color: #01bacf !important;
+    border-color: #ffce00 !important;
 }
 
 .cb,
@@ -2315,6 +2315,16 @@ RESPONSIVE
 Departments nav
 ******************************************/
 
+/*Size of arrow icon*/
+.fas{
+    font-size: 24px;
+}
+
+/*Align departments left*/
+.wrap-nav{
+text-align: left;
+}
+
 .DeptOverlay {
 	display:none;
 	position:fixed;
@@ -2370,7 +2380,7 @@ Departments nav
 .wrap ul.wrap-nav ul li {
 	display:block;
 	font-size:13px;
-	width:100%;
+	
 	color:#e9e9e9;
 }
 .wrap ul.wrap-nav ul li a {
@@ -2412,12 +2422,10 @@ Departments nav
 .social-icon i {
 	margin-top:12px;
 }
-.deptLink {
-	color: pink;
-}
+
 
 /*Underline */
-.d/ptLink:after {    
+.deptLink:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
