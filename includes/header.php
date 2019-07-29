@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li class="dropdown hassubmenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
 							
 							<li><a href="./calendar">Board of Directors</a>
