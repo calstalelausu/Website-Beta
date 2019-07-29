@@ -48,7 +48,7 @@ html{
 }
 </style>
 <script type="text/javascript">
-    
+    $('video').prop('muted',true)[0].play()
       	  $(document).ready(function(){
 //             $(".menu-toggle").click(
 //                  function () {
