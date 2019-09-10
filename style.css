@@ -256,7 +256,7 @@ HEADER
     z-index: 100;
     background-color: #545454;
     left: 0;
-    padding: 15px 0;
+    padding-bottom: 30px;
     right: 0,
 }
 
@@ -269,6 +269,29 @@ HEADER
     opacity: 0;
     display: none;
 }
+
+
+@media only screen and (max-width: 769px) {
+    .navbar-brand img{
+        width:225px;
+        
+        }
+#navbar{
+    padding-top:8px!important;
+    margin-top: 25px!important;
+}
+
+
+
+  }
+
+
+
+
+
+
+
+
 
 .navbar-default {
     margin: 0;
@@ -331,6 +354,11 @@ HEADER
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
     background-color: transparent !important;
+}
+ 
+#navbar{
+
+padding-top:15px;
 }
 
 .navbar-brand {
@@ -477,7 +505,7 @@ MEGA MENU
 
 .yamm .dropdown-menu li a {
     padding: 0 !important;
-    color: #848484;
+    color: white;
 }
 
 .yamm .dropdown-menu li:hover a {
@@ -498,7 +526,7 @@ MEGA MENU
 .yamm .dropdown .dropdown-menu {
     border-radius: 0;
     border-top: 3px solid #ffce00;
-    background-color: #fff !important;
+    background-color: black !important;
     margin-top: 24px;
     padding: 20px 30px;
 }
@@ -979,7 +1007,7 @@ SECTIONS
 }
 
 .section {
-    background-color: #ffffff;
+    background-color: #545454;
     padding: 8rem 0;
     position: relative;
     display: block;
@@ -1252,10 +1280,10 @@ COURSE MODULES
 .entry:hover .magnifier {
     opacity: 1;
     z-index: 1000;
-    left: 5%;
-    top: 5%;
-    right: 5%;
-    bottom: 5%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
     position: absolute;
     visibility: visible;
 }
@@ -1694,7 +1722,7 @@ TESTIMONIAL
 
 .section.lb .tagline-message h3,
 .section.gb .tagline-message h3 {
-    color: #000;
+    color: white;
 }
 
 .callout h3 {
@@ -1767,7 +1795,7 @@ SHOP
 }
 
 .shop-wrapper .course-details {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .shop-wrapper.course-box small {
@@ -2029,6 +2057,146 @@ FOOTER
 }
 
 
+
+
+
+
+
+/* -------------------------------------------------- */
+/*	Department icons Ends
+/* -------------------------------------------------- */
+.dept-icons {
+	margin-left: -10px;
+	margin-top: 0px;
+	display: inline-block;
+	width: 325px;
+	float: left;
+}
+ul.dept-icons li {
+	margin-top: 0;
+}
+.dept-icons li {
+	margin-bottom: 1px;
+	float: left;
+	width: 36px;
+	height: 36px;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	background-color: transparent;
+	margin-right: -27px;
+	transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+}
+.dept-icons.dark li {
+	/*background-color: #525252;*/
+	opacity: 0.60;
+	background-position: -36px 0px;
+}
+.dept-icons li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dept-icons li:hover {
+	background-position: 0px -36px;
+}
+.dept-icons.dark li:hover {
+	background-position: -36px -36px;
+}
+/*.dept-icons li.csula {
+	background-image: url('../_assets/departments/csula-logo.png');
+}*/
+
+.dept-icons li.csi {
+	background-image: url('images/FooterImages/csi-logo.png');
+}
+.dept-icons li.ccc {
+	background-image: url('images/FooterImages/ccc-logo.png');
+}
+.dept-icons li.graffix {
+	background-image: url('images/FooterImages/graffix-logo.png');
+}
+.dept-icons li.pit {
+	background-image: url('images/FooterImages/pit-logo.png');
+}
+.dept-icons li.xt {
+	background-image: url('images/FooterImages/xt-logo.png');
+}
+.dept-icons li.ksula {
+	background-image: url('images/FooterImages/ksula.png');
+}
+.dept-icons li.meetings {
+	background-image: url('images/FooterImages/meetings-logo.png');
+}
+.dept-icons li.calendar {
+	background-image: url('images/FooterImages/calendar.png');
+}
+/* hover header-icons*/
+.dept-icons li.csula:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.csi:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.ccc:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.graffix:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.pit:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.xt:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.meetings:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+.dept-icons li.calendar:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+/* hover footer-icons*/
+.dept-icons.dark li.csi:hover {
+	background-color: #009964;
+	opacity: 1;
+}
+.dept-icons.dark li.ccc:hover {
+	background-color: #8d2a42;
+	opacity: 1;
+}
+.dept-icons.dark li.graffix:hover {
+	background-color: #ce2027;
+	opacity: 1;
+}
+.dept-icons.dark li.pit:hover {
+	background-color: #a7aa39;
+	opacity: 1;
+}
+.dept-icons.dark li.xt:hover {
+	background-color: #a30134;
+	opacity: 1;
+}
+.dept-icons.dark li.meetings:hover {
+	background-color: #707071;
+	opacity: 1;
+}
+.dept-icons.dark li.calendar:hover {
+	background-color: #7E298D;
+	opacity: 1;
+}
+/* -------------------------------------------------- */
+/*	Department icons Ends
+/* -------------------------------------------------- */
 /******************************************
 BUTTONS
 ******************************************/
@@ -2155,9 +2323,9 @@ mark,
 .image-wrap:before,
 .image-wrap:after,
 .btn-primary {
-    border-color: #01bacf;
-    background-color: #01bacf;
-    box-shadow: inset 0 0 0 0 #00a8bd;
+    border-color: #ffce00;
+    background-color: #ffce00;
+    box-shadow: inset 0 0 0 0 #3a3a3a;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -2166,9 +2334,9 @@ mark,
 .pagination a:hover,
 .tags-widget a:hover,
 .btn-primary:hover {
-    color: #ffffff !important;
-    box-shadow: inset 0 100px 0 0 #00a8bd;
-    border-color: #00a8bd;
+    color: white !important;
+    box-shadow: inset 0 100px 0 0 #3a3a3a;
+    border-color: #3a3a3a;
 }
 
 
@@ -2319,12 +2487,24 @@ RESPONSIVE
 Departments nav
 ******************************************/
 /* hide scroll icon unless on tablet or mobile*/
+
+
+.spacer
+{
+    width: 100%;
+    height: 110px!important;
+    background:#545454;
+
+}
+
+
 .scrollIcon{
     display: none;
     }
 /*Size of arrow icon*/
 .fas{
     font-size: 24px;
+    padding: 5px;
 }
 
 /*Align departments left*/
@@ -2460,7 +2640,7 @@ li.link{
 }
 
 
-/*Underline */
+/*Dept Underline */
 .deptLink:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -2469,16 +2649,29 @@ li.link{
   height: 2px;
   left: 50%;
   position: absolute;
+  position: absolute;
   background: #ffce00 ;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
+
+
 
 .deptLink:hover:after { 
   width: 100%; 
   left: 0; 
 }
 
+
+
+
+/*Full Page Sections */
+.fullPage{
+    height:80vh;
+  
+
+}
 
 .backIcon{
 	padding-top: 100px;
@@ -2515,6 +2708,12 @@ li.link{
     width: 23%;
     position: relative;
 }
+
+.wrap ul.wrap-nav {
+	border-bottom:none;
+	text-transform:capitalize;
+	padding:40px 0px 100px;
+}
 		}
 	
 	@media screen and (max-width:1440px) {
@@ -2538,7 +2737,11 @@ li.link{
     width: 33%;
     position: relative;
 }
-		
+.wrap ul.wrap-nav {
+	border-bottom:none;
+	text-transform:capitalize;
+	padding:40px 0px 100px;
+}	
 		
 		
 		}
@@ -2552,7 +2755,17 @@ li.link{
 	}
 	.wrap ul.wrap-nav {
 		padding:100px 0px 0px;
-	}
+    }
+    
+    .one{
+        border-bottom: 1px solid #575757;
+    }
+    .two{
+        border-bottom: 1px solid #575757;
+    }
+    .three{
+        border-bottom: 1px solid #575757;
+    }
 /*
 	nav ul {
 		opacity:0;
@@ -2578,6 +2791,17 @@ li.link{
 
 
 @media screen and (max-width:425px) {
+
+    .header.affix {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background-color: #545454;
+        left: 0;
+        padding: 0px 0;
+        right: 0,;
+    }
+
 .navbar-collapse {
     padding-right: 15px;
     padding-left: 15px;
@@ -2590,16 +2814,26 @@ li.link{
 
 	.header{
 		background-color: black;
-		height:80px
+		height:90px
 	}
 	
 	.header div.container{
-		background-color: black;
+        background-color: #545454;
+        height: inherit;
 	}
 
 /*scroll icon*/
 .scrollIcon{
     display: contents;
+    }
+
+    .navbar-default {
+        margin: 0;
+        background-color: transparent;
+        background: none;
+        border: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
 }

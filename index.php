@@ -138,34 +138,33 @@ html{
 			
 			
 			
-				<li class="First" ><a class="deptHeading" href="#">Recreation</a>
-			<ul>
-				<ul>
+				<li  ><a class="deptHeading" href="#">Recreation</a>
+		
+				<ul class="one";>
 							<li class="link" ><a class="deptLink" href="/xtremefitness"> Xtreme Fitness </a></li>
 					
 					
 				<li class="link" ><a class="deptLink"  href="/pit"> The Pit</a></li>     
-				</ul>
+			
 			</ul>
 				<a class="deptHeading" href="#">Graffix</a>	
 					
-					<ul>
-				<ul>
+			
+				<ul class="two";>
 							<li class="link" ><a class="deptLink"  href="/acui">ACUI Awards</a></li>
-						</ul>
+			
 			</ul>
 					
 					<a class="deptHeading" href="#">Operations</a>
-								<ul>
-				<ul>
+							
+				<ul >
 						
 					
 					<li class="link" ><a class="deptLink"  href="/meetingrooms.php">Meeting Rooms</a></li>  
 					
 						<li class="link" ><a class="deptLink"  href="/Applications.php" title="Menu option 'Forms'">Forms</a></li>
 					
-					
-						</ul>
+			
 			</ul>
 					
 			</li>
@@ -176,7 +175,7 @@ html{
 			
 		
 			<li class="second"><a class="deptHeading" hxref="#">Cross Cultural Centers</a>
-			<ul>
+			<ul >
 				<li class="link" ><a class="deptLink"   href="/apisrc">Asian Pacific Islander<br/> Student Resource Center</a></li>
 							
 							<li class="link" ><a class="deptLink"   href="/clsrc">Chicana/o Latina/o<br/>	Student Resource Center</a></li>
@@ -606,6 +605,9 @@ html{
                     <div class="col-lg-4 col-md-12 m30">
                         <div class="blog-box">
                             <div class="image-wrap entry">
+
+                       
+
                                 <img src="upload/wellnessweek.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                      <a href="blog-single.php" title=""><i class="flaticon-add"></i></a>
@@ -740,107 +742,6 @@ html{
 
 
                 </div><!-- end row -->
-            </div><!-- end container -->
-        </section>
-        <section class="section db" style="display:none">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="stat-count">
-                            <h4 class="stat-timer">1230</h4>
-                            <h3><i class="flaticon-black-graduation-cap-tool-of-university-student-for-head"></i> Happy Students</h3>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
-                        </div><!-- stat-count -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-4">
-                        <div class="stat-count">
-                            <h4 class="stat-timer">331</h4>
-                            <h3><i class="flaticon-online-course"></i> Course Done</h3>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
-                        </div><!-- stat-count -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-4">
-                        <div class="stat-count">
-                            <h4 class="stat-timer">8901</h4>
-                            <h3><i class="flaticon-coffee-cup"></i> Ordered Coffe's</h3>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
-                        </div><!-- stat-count -->
-                    </div><!-- end col -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h3>Testimonials</h3>
-                    <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                </div><!-- end title -->
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="box testimonial">
-                            <p class="testiname"><strong><img src="upload/testimonial_01.png" alt="" class="img-circle"> Jenny LUXURY</strong></p>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div><!-- end testimonial -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-4">
-                        <div class="box testimonial">
-                            <p class="testiname"><strong><img src="upload/testimonial_02.png" alt="" class="img-circle"> Martin LEO</strong></p>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </div>
-                        </div><!-- end testimonial -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-4">
-                        <div class="box testimonial">
-                            <p class="testiname"><strong><img src="upload/testimonial_03.png" alt="" class="img-circle"> John DOE</strong></p>
-                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div><!-- end testimonial -->
-                    </div><!-- end col -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </section>
-
-
-
-        <section class="section bgcolor1">
-            <div class="container">
-                <a href="#">
-                <div class="row callout">
-                    <div class="col-md-4 text-center">
-                        <!-- <h3><sup>$</sup>49.99</h3> -->
-                        <!-- <h4>Start your awesome course today!</h4> -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-8">
-                        <p class="lead">Any Information here! </p>
-                    </div>
-                </div><!-- end row -->
-                </a>
             </div><!-- end container -->
         </section>
 

@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="logo-normal">
-                    <a class="navbar-brand" href="index.html"><img width="200px" src="images/CSULA_Logo.png" alt=""></a>
+                    <a class="navbar-brand" href="index.php"><img width="270px" src="images/BetaLogo.png" alt=""></a>
                 </div>
             </div>
 			
@@ -24,27 +24,27 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
 							
-							<li><a href="./calendar">Calendar</a>
+							<li><a class="main" href="./calendar">Calendar</a>
 							</li>
 							
-                            <li><a href="./theme">Event Themes</a></li>	
+                            <li><a class="main" href="./theme">Event Themes</a></li>	
 							
 							
-							<li><a href="./eaglecon">Eagle Con</a>
+							<li><a class="main" href="./eaglecon">Eagle Con</a>
 							</li>
 							
-                            <li><a href="./studyFest">Finals Study Fest</a></li>	
+                            <li><a  class="main"href="./studyFest">Finals Study Fest</a></li>	
 							
 							
-							<li><a href="./welcomeweek">Welcome Week</a>
+							<li><a class="main" href="./welcomeweek">Welcome Week</a>
 							</li>
 							
-                            <li><a href="./WellnessWeek">Wellness Week</a></li>
+                            <li><a class="main" href="./WellnessWeek">Wellness Week</a></li>
                             
                         </ul>
                     </li>
                     <li class="dropdown hassubmenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="fa fa-angle-down"></span></a>
                         <ul class="dropdown-menu" role="menu">
 							
 							<li><a href="./calendar">Board of Directors</a>
@@ -85,7 +85,7 @@
 
                       <li><a class="pop" href="#">Departments</a></li>
 
-                      <li><a  href="#">Photos</a></li>
+                      <li><a  href="./gallery.php">Photos</a></li>
                     
                       <li><a  href="#">Employment</a></li>
                    

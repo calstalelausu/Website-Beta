@@ -19,6 +19,8 @@
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <script src="https://kit.fontawesome.com/2b3a6bf91c.js"></script>
+  
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
@@ -54,7 +56,7 @@
                         <div class="tagline-message page-title text-center">
                             <h3>Wellness Week</h3>
                             <ul class="breadcrumb">
-                                <li><a href="javascript:void(0)">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li class="active">Event Name</li>
                             </ul>
                         </div>
@@ -87,9 +89,7 @@
                                         <!-- <p class="lead">Happy Hour</p> -->
                                         <p>HAPPY HOUR IS BACK! Please join us in the PIT for free popcorn, game play, raffle prizes and great music! Meet up with old friends or come and make some new friends. Everyone is welcome! </p>
                                        
-                                        <blockquote class="text-center">
-                                            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                        </blockquote>
+                                     
 
                                         <p>Integer eu urna <a href="#">sit amet dolor fringilla vulputate</a>. Sed diam nunc, pellentesque sed lobortis non, tincidunt et sem. Sed sollicitudin elementum mi eget lobortis. Aliquam molestie rhoncus nisl, vitae molestie leo imperdiet ac. Aliquam diam est, aliquam vitae tristique nec, pretium a libero. Vivamus tempor sed turpis sit amet malesuada.</p>
 
@@ -168,17 +168,7 @@
                                 </div><!-- end post-widget -->
                             </div><!-- end widget -->
                             <div class="sidebar col-md-4" >
-    <div class="widget">
-    <div class="authorbox-social">
-                                        <ul class="list-inline">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-                                        </ul>
-                                    </div>
-    </div>
+ 
 
     </div>
                             
@@ -187,16 +177,11 @@
                                 <h3 class="widget-title">Popular Tags</h3>
                                 <div class="tags-widget">   
                                     <ul class="list-inline">
-                                        <li><a href="#">recreation</a></li>
-                                        <li><a href="#">calstatela</a></li>
-                                        <li><a href="#">student union</a></li>
-                                        <li><a href="#">table tennis</a></li>
-                                        <li><a href="#">teacher</a></li>
-                                        <li><a href="#">speaking</a></li>
-                                        <li><a href="#">material</a></li>
-                                        <li><a href="#">css3</a></li>
-                                        <li><a href="#">html</a></li>
-                                        <li><a href="#">learning</a></li>
+                                        <li><a href="#">Happy hour 08/12</a></li>
+                                        <li><a href="#">Table Tennis Tournument 9/23</a></li>
+                                        <li><a href="#">Pool Tournument 10/14</a></li>
+                                 
+                                       
                                     </ul>
                                 </div><!-- end list-widget -->
                             </div><!-- end widget -->
@@ -206,93 +191,8 @@
             </div><!-- end container -->
         </section>
 
-        <footer class="section footer noover">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
-                            <div class="newsletter-widget">
-                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
-                                <form class="form-inline" role="search">
-                                    <div class="form-1">
-                                        <input type="text" class="form-control" placeholder="Enter email here..">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
-                                    </div>
-                                </form>
-                                <img src="images/payments.png" alt="" class="img-responsive">
-                            </div><!-- end newsletter -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
+        <?php include ("./includes/footer.php");?>
 
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Join us today</h3>
-                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
-                            <a href="#" class="readmore">Became a Teacher</a>
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Popular Tags</h3>
-                            <div class="tags-widget">   
-                                <ul class="list-inline">
-                                    <li><a href="#">course</a></li>
-                                    <li><a href="#">web design</a></li>
-                                    <li><a href="#">development</a></li>
-                                    <li><a href="#">language</a></li>
-                                    <li><a href="#">teacher</a></li>
-                                    <li><a href="#">speaking</a></li>
-                                    <li><a href="#">material</a></li>
-                                    <li><a href="#">css3</a></li>
-                                    <li><a href="#">html</a></li>
-                                    <li><a href="#">learning</a></li>
-                                </ul>
-                            </div><!-- end list-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-2 col-md-2">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Support</h3>
-                            <div class="list-widget">   
-                                <ul>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Copyrights</a></li>
-                                    <li><a href="#">Create a Ticket</a></li>
-                                    <li><a href="#">Pricing & Plans</a></li>
-                                    <li><a href="#">Carrier</a></li>
-                                    <li><a href="#">Trademark</a></li>
-                                </ul>
-                            </div><!-- end list-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </footer><!-- end footer -->
-
-        <div class="copyrights">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="pull-left">
-                        <div class="cop-logo">
-                            <a href="#"><img src="images/logo.png" alt=""></a>
-                        </div>
-                    </div>
-
-                    <div class="pull-right">
-                        <div class="footer-links">
-                            <ul class="list-inline">
-                                <li>Design : <a href="https://html.design">HTML.Design</a></li>
-                                <li>Distributed by : <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </div><!-- end copy -->
-    </div><!-- end wrapper -->
 
     <!-- jQuery Files -->
     <script src="js/jquery.min.js"></script>
